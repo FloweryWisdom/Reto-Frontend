@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devto Challenge | Home </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- <header>
+   
+   
+    </header> -->
+
+
+
+
+
+
+
+
+
+<!--     
+
+    <header>
+        <nav>
+            <nav class="navbar fixed-top border-bottom p-0 ">
+                <div class="container-fluid d-flex justify-content-md-between container-nav">
+                    <div class="d-flex ">
+                        <button class="navbar-toggler d-md-none border border-light" type=" button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon d-flex align-items-center"></span>
+                        </button>
+                        <a href="#">
+                            <img class="" src="./assets/icons/dev_to_icon.png" alt="">
+                        </a>
+                        
+                        <div class="input-group align-items-center w-auto contenedorsearch ">
+                            <input id="search-bar" type="text" class="form-control d-none h-75 border-end-0  d-md-flex"
+                                placeholder="Search..." aria-label="Search" aria-describedby="basic-addon1">
+                            <span class="input-group-text d-none d-md-flex h-75  " id="basic-addon1">
+                                <img class=" d-none d-md-block"
+                                    src="./assets/icons/icon-glass.svg"
+                                    alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="text-decoration-none">
+                            <img class="p-1 d-md-none"src="" alt="">
+                            <button type="button" class="btn btn-outline-primary me-1 d-none d-md-block ">LogIn</button>
+                        </a>
+
+                        <a href="#" class="text-decoration-none">
+                            <img class="p-1 d-md-none"src="./assets/icons/icon-glass.svg" alt="">
+                            <button type="button" class="btn btn-outline-primary  d-none d-md-block ">Create Post</button>
+                        </a>
+
+
+                        
+                        <a href="#"><img class="m-3" src="./assets/icons/icon-campaign.svg" alt=""></a>
+
+                        <div class="dropdown dropstart">
+                            <a class="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <img class="img-fluid border border-dark rounded-circle " src="./assets/icons/profile-svgrepo-com.svg" alt=""></a>
+                            <ul class="dropdown-menu menu-position2" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Kodemia</a></li>
+                              <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Create Post</a></li>
+                              <li><a class="dropdown-item" href="#">Reading list</a></li>
+                              <li><a class="dropdown-item" href="#">Settings</a></li>
+                              <li><a class="dropdown-item" href="#">Sing Out</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DEV Community</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-home.svg"
+                                        alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-listings.svg" alt=""><a class="nav-link active"
+                                        aria-current="page" href="#">Listings</a>
+                                </li>
+                               
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-podcats.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Podcasts</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-videos.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Videos</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-tags.svg" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Tags</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-faq.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-forem-shop.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Forem Shop</a>
+                                </li>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-heart.svg" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Sponsors</a>
+                                </li>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img class="about1" src="./assets/icons/icon-aboutus.svg" alt="">
+                                    <a class="nav-link active"aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-contact.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img class="about1" src="./assets/icons/icon-guides.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Guides</a>
+                                </li>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img class="about1" src="./assets/icons/icon-software-comparisons.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Software Comparisons</a>
+                                </li>
+
+
+
+                                <br>
+                                <h5>Others</h5>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-code-of-conduct.svg" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Code of Conduct</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-privacy-policy.svg" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./assets/icons/icon-terms-of-use.svg" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Terms of use</a>
+                                </li>
+                            </ul>
+                            </li>
+                            </ul>
+                            <div class="d-flex justify-content-between mt-3">
+                                <a href="https://twitter.com">
+                                    <img src="./assets/icons/icon-twitter.svg" alt="" class="hover-effect">
+                                </a>
+                                <a href="https://www.facebook.com">
+                                    <img src="./assets/icons/icon-facebook.svg" alt="" class="hover-effect">
+                                </a>
+                                <a href="https://github.com">
+                                    <img src="./assets/icons/icon-github.svg" alt="" class="hover-effect">
+                                </a>
+                                <a href="https://www.instagram.com">
+                                    <img src="./assets/icons/icon-instagram.svg" alt="" class="hover-effect">
+                                </a>
+                                <a href="https://discord.com">
+                                    <img src="./assets/icons/icon-discord.svg" alt="" class="hover-effect">
+                                </a>
+                                <a href="https://fosstodon.org">
+                                    <img src="./assets/icons/icon-fosstodon.svg" alt="" class="hover-effect">
+                                </a>
+                            </div>
+                            
+                              
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header> -->
+
+    <main>
+        <div class="page__container d-flex">
+            <div class="aside__left col-0 col-md-3 col-lg-3 overflow-auto"></div>
+            <div class="container__post col-12 col-md-9 col-lg-6 overflow-hidden">
+                <div class="container__post-section">
+                    <div class="post-section--header text-center p-2">
+                        <ul class="header--nav d-flex list-unstyled m-0">
+                            <li class="header--nav-list text-center p-2"> <strong>Relevant</strong> </li>
+                            <li class="header--nav-list text-center p-2">Latest</li>
+                            <li class="header--nav-list text-center p-2">Top</li>
+                        </ul>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded bg-light">
+                        <img src="./assets/home/main/post-header-image.webp" alt="" class="post-test--image rounded-top ratio ratio-16*9">
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <a href="https://dev.to/quine"><img src="./assets/home/main/profile-picture-1.gif" alt="" class="profile-icon--container-image rounded"></a>
+                                </div>
+                                <div class="user-info--data">
+                                    <div class="dropdown">
+                                        <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="dropbtn text-decoration-none text-reset" >Bap</a></strong> for <a class="text-decoration-none text-reset" href="https://dev.to/quine">Quine</a></p>
+                                        <div class="dropdown-content rounded overflow-hidden">
+                                            <div class="dropdown-content--top-color-design"></div>
+                                            <div class="dropdown-content--user-data d-flex">
+                                                <div class="user-data--profile-icon"> <a href="https://dev.to/fernandezbaptiste"> <img src="./assets/home/main/profile-picture-11.webp" alt=""></a></div>
+                                                <p class="user-data--profile-name-container m-0" ><a class="user-data--profile-name" href="https://dev.to/fernandezbaptiste"><b>Bap</b></a></p>
+                                            </div>
+                                            <button class="user-data--button btn btn-primary" >Follow</button>
+                                            <div class="user-data--tagline-container">
+                                                <p class="user-data--tagline">A bit of content creation here and there 👀 Ex-TikTok and Uber Analytics</p>
+                                            </div>
+                                            <div class="user-data--details">
+                                                <b>EMAIL</b>
+                                                <p>email@email.com</p>
+                                            </div>
+                                            <div class="user-data--details">
+                                                <b>WORK</b>
+                                                <p>DevRel Lead @Quine</p>
+                                            </div>
+                                            <div class="user-data--details">
+                                                <b>LOCATION</b>
+                                                <p>city, country</p>
+                                            </div>
+                                            <div class="user-data--details">
+                                                <b>EDUCATION</b>
+                                                <p>Imperial College Education</p>
+                                            </div>
+                                            <div class="user-data--details">
+                                                <b>JOINED</b>
+                                                <p>May 3, 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-info--post-time-container">
+                                     <small class="user-info--post-time">Posted on Jun 14</small>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">5 Surprising Benefits of Contributing to Open Source [Beginner Edition] &#128640;</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li class="hashtag-background d-flex align-items-center"><span>#</span>beginners</li>
+                                    <li class="hashtag-background d-flex align-items-center"><span>#</span>opensource</li>
+                                    <li class="hashtag-background d-flex align-items-center">#career</li>
+                                    <li class="hashtag-background d-flex align-items-center">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="hover-reaction-test d-flex align-items-center">
+                                    <div class="post-actions--icon-row d-flex align-items-center">
+                                        <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                        <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                        <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                        <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                        <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                    </div>
+                                    <p class="post-actions--reactions-text mb-0">16 Reactions</p>
+                                </div>
+                                <p class="post-actions--comment-number mb-0 d-flex align-items-center"> <img src="./assets/icons/reaction-comment.svg" alt="">&nbsp&nbsp2 Comments</p>
+                                <small class="post-actions--read-duration" >3 min</small>
+                                <div class="post-actions--bookmark-container d-flex align-items-center">
+                                    <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded overflow-hidden bg-light">
+                        <img src="./assets/home/main/second-post-picture-2.jpeg" alt="" class="post-test--image ratio ratio-16*9">
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <img src="./assets/home/main/profile-picture-7.webp" alt="" class="profile-icon--container-image rounded">
+                                </div>
+                                <div class="user-info--data">
+                                    <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="text-decoration-none text-reset" >flowerywisdom</a></strong> <a class="text-decoration-none text-reset" href="https://dev.to/quine"></a></p>
+                                    <small class="user-info--post-time">Posted on Jun 14</small>
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">Learn How To Make Banger Memes Quick & Easy</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li><span>#</span>memes</li>
+                                    <li><span>#</span>twitter</li>
+                                    <li id="hashtag-background">#career</li>
+                                    <li id="hashtag-background">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="post-actions--icon-row d-flex">
+                                    <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                    <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                    <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                    <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                    <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                </div>
+                                <p class="post-actions--reactions-text m-0">7 reactions</p>
+                                <img class="post-actions--comment-icon" src="./assets/icons/reaction-comment.svg" alt="">
+                                <p class="post-actions--comment-number m-0">10 comments</p>
+                                <small class="post-actions--read-duration" >5 min read</small>
+                                <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded overflow-hidden bg-light">
+                        <!-- <img src="./assets/home/main/post-header-image.webp" alt="" class="post-test--image ratio ratio-16*9"> -->
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <img src="./assets/home/main/profile-picture-3.webp" alt="" class="profile-icon--container-image rounded">
+                                </div>
+                                <div class="user-info--data">
+                                    <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="text-decoration-none text-reset" >learnhowtocode</a></strong> <a class="text-decoration-none text-reset" href="https://dev.to/quine"></a></p>
+                                    <small class="user-info--post-time">Posted on Jun 14</small>
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">5 Surprising Benefits of Contributing to Open Source [Beginner Edition] &#128640;</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li><span>#</span>beginners</li>
+                                    <li><span>#</span>opensource</li>
+                                    <li id="hashtag-background">#career</li>
+                                    <li id="hashtag-background">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="post-actions--icon-row d-flex">
+                                    <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                    <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                    <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                    <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                    <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                </div>
+                                <p class="post-actions--reactions-text m-0">420 reactions</p>
+                                <img class="post-actions--comment-icon" src="./assets/icons/reaction-comment.svg" alt="">
+                                <p class="post-actions--comment-number m-0">69 comments</p>
+                                <small class="post-actions--read-duration" >20 min read</small>
+                                <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded overflow-hidden bg-light">
+                        <img src="./assets/home/main/post-header-image.webp" alt="" class="post-test--image ratio ratio-16*9">
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <img src="./assets/home/main/profile-picture-1.gif" alt="" class="profile-icon--container-image rounded">
+                                </div>
+                                <div class="user-info--data">
+                                    <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="text-decoration-none text-reset" >Bap</a></strong> for <a class="text-decoration-none text-reset" href="https://dev.to/quine">Quine</a></p>
+                                    <small class="user-info--post-time">Posted on Jun 14</small>
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">5 Surprising Benefits of Contributing to Open Source [Beginner Edition] &#128640;</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li><span>#</span>beginners</li>
+                                    <li><span>#</span>opensource</li>
+                                    <li id="hashtag-background">#career</li>
+                                    <li id="hashtag-background">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="post-actions--icon-row d-flex">
+                                    <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                    <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                    <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                    <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                    <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                </div>
+                                <p class="post-actions--reactions-text m-0">420 reactions</p>
+                                <img class="post-actions--comment-icon" src="./assets/icons/reaction-comment.svg" alt="">
+                                <p class="post-actions--comment-number m-0">69 comments</p>
+                                <small class="post-actions--read-duration" >20 min read</small>
+                                <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded overflow-hidden bg-light">
+                        <img src="./assets/home/main/post-header-image.webp" alt="" class="post-test--image ratio ratio-16*9">
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <img src="./assets/home/main/profile-picture-1.gif" alt="" class="profile-icon--container-image rounded">
+                                </div>
+                                <div class="user-info--data">
+                                    <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="text-decoration-none text-reset" >Bap</a></strong> for <a class="text-decoration-none text-reset" href="https://dev.to/quine">Quine</a></p>
+                                    <small class="user-info--post-time">Posted on Jun 14</small>
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">5 Surprising Benefits of Contributing to Open Source [Beginner Edition] &#128640;</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li><span>#</span>beginners</li>
+                                    <li><span>#</span>opensource</li>
+                                    <li id="hashtag-background">#career</li>
+                                    <li id="hashtag-background">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="post-actions--icon-row d-flex">
+                                    <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                    <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                    <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                    <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                    <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                </div>
+                                <p class="post-actions--reactions-text m-0">420 reactions</p>
+                                <img class="post-actions--comment-icon" src="./assets/icons/reaction-comment.svg" alt="">
+                                <p class="post-actions--comment-number m-0">69 comments</p>
+                                <small class="post-actions--read-duration" >20 min read</small>
+                                <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__card--post-test shadow-sm rounded overflow-hidden bg-light">
+                        <img src="./assets/home/main/post-header-image.webp" alt="" class="post-test--image ratio ratio-16*9">
+                        <div class="post-test--body p-3">
+                            <div class="post-test--user-info d-flex gap-2">
+                                <div class="user-info__profile-icon--container">
+                                    <img src="./assets/home/main/profile-picture-1.gif" alt="" class="profile-icon--container-image rounded">
+                                </div>
+                                <div class="user-info--data">
+                                    <p class="user-info--username"> <strong> <a href="https://dev.to/fernandezbaptiste" class="text-decoration-none text-reset" >Bap</a></strong> for <a class="text-decoration-none text-reset" href="https://dev.to/quine">Quine</a></p>
+                                    <small class="user-info--post-time">Posted on Jun 14</small>
+                                </div>
+                            </div>
+                            <div class="post-test--title my-2 text-wrap"> <h2 class="mb-0"> <strong> <a class="link-post" href="./post.html">5 Surprising Benefits of Contributing to Open Source [Beginner Edition] &#128640;</a> </strong></h2></div>
+                            <div class="post-test--hashtags">
+                                <ul class="hashtags--list d-flex flex-wrap list-unstyled gap-1">
+                                    <li><span>#</span>beginners</li>
+                                    <li><span>#</span>opensource</li>
+                                    <li id="hashtag-background">#career</li>
+                                    <li id="hashtag-background">#github</li>
+                                </ul>
+                            </div>
+                            <div class="post-test--post-actions d-flex flex-wrap gap-2">
+                                <div class="post-actions--icon-row d-flex">
+                                    <img id="icon-number--1" src="./assets/icons/reaction-love.svg" alt="">
+                                    <img id="icon-number--2" src="./assets/icons/reaction-unicorn.svg" alt="">
+                                    <img id="icon-number--3" src="./assets/icons/reaction-exploding.svg" alt="">
+                                    <img id="icon-number--4" src="./assets/icons/reaction-raised-hands.svg" alt="">
+                                    <img id="icon-number--5" src="./assets/icons/reaction-fire.svg" alt="">
+                                </div>
+                                <p class="post-actions--reactions-text m-0">420 reactions</p>
+                                <img class="post-actions--comment-icon" src="./assets/icons/reaction-comment.svg" alt="">
+                                <p class="post-actions--comment-number m-0">69 comments</p>
+                                <small class="post-actions--read-duration" >20 min read</small>
+                                <img class="post-actions--bookmark-icon" src="./assets/icons/reaction-save.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="aside__right text-center col-0 col-md-0 col-lg-3">
+
+                <div class="aside__right--card p-3 rounded">
+                    <div class="right--card-header justify-content-between d-flex">
+                        <h3 class="card-header--title">#discuss</h3>
+                        <p class="card-header--link">  <a href="https://dev.to/listings">See all</a></p>
+                    </div>
+                    <div class="right--card-option">
+                        <p class="card-option--title m-0">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+
+                </div>
+
+                <div class="aside__right--card p-3 rounded">
+                    <div class="right--card-header justify-content-between d-flex">
+                        <h3 class="card-header--title">#discuss</h3>
+                        <p class="card-header--link">  <a href="https://dev.to/listings">See all</a></p>
+                    </div>
+                    <div class="right--card-option">
+                        <p class="card-option--title m-0">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+
+                </div>
+
+                <div class="aside__right--card p-3 rounded">
+                    <div class="right--card-header justify-content-between d-flex">
+                        <h3 class="card-header--title">#discuss</h3>
+                        <p class="card-header--link">  <a href="https://dev.to/listings">See all</a></p>
+                    </div>
+                    <div class="right--card-option">
+                        <p class="card-option--title m-0">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+                    <div class="right--card-option m-0">
+                        <p class="card-option--title">Meme Friday</p>
+                        <small class="card-option--subtitles">52 comments</small>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__container fw-medium"  id="footer__container">
+                <p class="footer__description">
+                    <a href="https://dev.to/" class="company__link text-center">DEV Community</a>
+                    A constructive and inclusive social network for software developers. With you every step of your journey.
+                </p>
+                <ul  id="nav_links_list" class="footer__nav-links d-flex gap-2 justify-center flex-wrap">
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/"  class="text-decoration-none">Home</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/listings" class="text-decoration-none">Listings</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/pod" class="text-decoration-none">Podcasts</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/videos" class="text-decoration-none">Videos</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/tags" class="text-decoration-none">Tags</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/faq" class="text-decoration-none">FAQ</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://shop.forem.com/" class="text-decoration-none">Forem Shop</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/sponsorships" class="text-decoration-none">Sponsors</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/about" class="text-decoration-none">About</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/contact" class="text-decoration-none">Contact</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/guides" class="text-decoration-none">Guides</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/software-comparisons" class="text-decoration-none">Software Comparisons</a>
+                    </li>
+                </ul>
+                <ul id="nav_links_list" class="footer__nav-links d-flex gap-2 justify-center flex-wrap">
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/code-of-conduct" class="text-decoration-none">Code of Conduct</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/privacy" class="text-decoration-none">Privacy Policy</a>
+                        <span class="dot text-secondary">•</span>
+                    </li>
+                    <li class="footer__nav-link flex items-center">
+                        <a href="https://dev.to/terms" class="text-decoration-none">Terms of use</a>
+    
+                    </li>
+                </ul>
+                <div class="footer__credits">
+                    <p>
+                        Built on
+                        <a href="https://www.forem.com/" class="text-decoration-none">Forem</a>
+                        - the 
+                        <a href="https://dev.to/t/opensource" class="text-decoration-none">Open Source</a>
+                        software that powers
+                        <a href="https://dev.to/" class="text-decoration-none">DEV</a>
+                        and other inclusive communities.
+                    </p>
+                    <p>
+                        Made with love and 
+                        <a href="https://dev.to/t/rails" class="text-decoration-none">Ruby on rails</a>
+                        . DEV Community
+                        <span class="copyright">©</span>
+                        2026 - 2023
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

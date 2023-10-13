@@ -312,7 +312,16 @@
       margin-left: auto;
   
   }
-     
+
+/*The following piece of code has the tranform properties for my reaction icons */
+
+.iconw{
+  transition: transform 0.3s;
+}
+.iconw:hover {
+  transform: scale(1.2)
+}
+
 
   @media only screen and (max-width:576px) {
       .post-actions--reactions-text {
@@ -322,8 +331,14 @@
           display: none;
       }
   }
+
+  @media only screen and (max-width:328px) {
+    .post-actions--bookmark-icon {
+      display: none;
+    }
+  }
   
-  @media only screen and (max-width:355px) {
+  @media only screen and (max-width:372px) {
       .post-actions--read-duration {
           display: none;
       }

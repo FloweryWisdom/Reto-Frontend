@@ -22,6 +22,10 @@
     margin-bottom: 0rem;
   }
 
+  .icon-text-container img{
+    height: 24px;
+    width: 24px;
+  }
 
   .aside__right {
       background-color: rgb(240, 239, 239);

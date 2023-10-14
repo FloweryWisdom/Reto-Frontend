@@ -7,6 +7,22 @@
   .aside__left{
       background-color: rgb(240, 239, 239);
   }
+
+  .icon-text-container {
+    display: flex;
+    align-items: center; /* Vertically center align items within the container */
+  }
+  
+  .icon-span {
+    margin-right: 10px; /* Add horizontal spacing between icon and text */
+  }
+  
+  .text-span p{
+    /* Add any additional styles you need for the text */
+    margin-bottom: 0rem;
+  }
+
+
   .aside__right {
       background-color: rgb(240, 239, 239);
   
@@ -104,6 +120,7 @@
       width: 32px; 
   }
   
+
   .user-info--username {
       margin: 0;
   }

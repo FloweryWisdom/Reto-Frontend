@@ -1,0 +1,11 @@
+{
+  "name": "reto-frontend",
+  "version": "1.0.0",
+  "description": "This is a project assigned to me to replicate and add limited functionality to the Dev.to website. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flowery/ radnpx",
+  "license": "ISC"
+}

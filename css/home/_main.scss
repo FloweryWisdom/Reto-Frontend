@@ -4,14 +4,54 @@
 //     box-sizing: border-box; 
 // }
 
+
+// ASIDE LEFT SECTION STARTS HERE // 
 .aside__left{
     background-color: rgb(240, 239, 239);
 }
+
+
+.icon-text-container {
+    display: flex;
+    align-items: center; /* Vertically center align items within the container */
+  }
+  
+.icon-span {
+    margin-right: 10px; /* Add horizontal spacing between icon and text */
+  }
+  
+.text-span p{
+    /* Add any additional styles you need for the text */
+    margin-bottom: 0rem;
+  }
+
+.icon-text-container img{
+    height: 24px;
+    width: 24px;
+  }
+
+.icon-text-container .text-span a {
+    color:black;
+    text-decoration: none
+  }
+
+.icon-text-container:hover {
+    background-color: #e4e4e4
+  }
+
+.icon-text-container .text-span a:hover{
+    text-decoration: underline; /* Underline on hover */
+    color: blue
+  }
+// ASIDE LEFT SECTION ENDS HERE //
+
+
+// ASIDE RIGHT SECTION STARTS HERE //
+
 .aside__right {
     background-color: rgb(240, 239, 239);
 
 }
-
 .aside__right--card {
     width: 255px !important;
     margin-left: auto;
@@ -23,6 +63,10 @@
 .right--card-option {
     border-bottom: .5px solid gray;
 }
+
+// ASIDE RIGHT SECTION ENDS HERE //
+
+
 .page__container {
     height: auto;
 
@@ -60,7 +104,16 @@
 }
 
 .hashtags--list {
-    margin-left: 37px;
+    margin-left: 31px;
+    font-weight: 350;
+    font-size: 15px;
+    color: rgb(80, 80, 80)
+}
+
+.hastags--list li {
+    height:30px;
+    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .hashtags--list  span {
@@ -69,20 +122,24 @@
 
 .hashtags--list :nth-child(-n+2):hover:not(span) {
     background-color: rgb(209, 255, 190);
-    border: 2px solid rgb(180, 248, 150);
-    
+    border: 1px solid rgb(180, 248, 150);
+    border-radius: 6px;
 }
 
 .hashtags--list :nth-child(n+3):hover:not(span) {
     background-color: rgb(200, 200, 200);
     border: 2px solid rgb(173, 173, 173);
+    border-radius: 6px;
 }
 
 
 .post-test--post-actions {
-    margin-left: 37px;
+    margin-left: 29px;
     align-items: center;
     margin-bottom: 10px;
+    font-weight: 350;
+    font-size: 16px;
+    color: rgb(80, 80, 80)
 }
 
 .profile-icon--container-image {
@@ -98,11 +155,99 @@
     line-height: 100%;
 }
 
+.dropbtn {
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 310px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 7;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+}
+
+.dropdown-content--user-data {
+    position: relative;
+    bottom: 20px;
+    left: 18px;
+}
+
+.user-data--button {
+    margin-left: 18px;
+    width: 300px;
+    margin-right: 18px;
+}
+
+.user-data--tagline-container {
+    width: 300px;
+    margin-left: 18px;
+}
+
+.user-data--tagline {
+    margin-left: 0px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.user-data--profile-name:hover {
+    color: blue;
+}
+
+.user-data--details {
+    margin-left: 18px;
+}
+
+.user-data--details b {
+   color: rgb(99, 99, 99); 
+   font-size: small;
+}
+
 .link-post {
     text-decoration: none;
     color: black;
 }
 
+.user-data--profile-icon img {
+    background-color: rgb(108, 108, 108);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.user-data--profile-name-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-data--profile-name {
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content--top-color-design {
+    height: 36px;
+    width: auto;
+    background-color: navy;
+}
 
 #icon-number--1 {
     position: relative;

@@ -11,6 +11,13 @@
 }
 
 
+#left-side-element--box {
+    margin-left: auto;
+    margin-right: 1rem;
+    max-width: 220px;
+}
+
+
 .icon-text-container {
     display: flex;
     align-items: center; /* Vertically center align items within the container */
@@ -43,6 +50,16 @@
     text-decoration: underline; /* Underline on hover */
     color: blue
   }
+
+#scrollable-sidebar {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.btn.no-caret::after {
+    display: none;
+}
+
 // ASIDE LEFT SECTION ENDS HERE //
 
 
@@ -53,8 +70,8 @@
 
 }
 .aside__right--card {
-    width: 255px !important;
-    margin-left: auto;
+    max-width: 310px !important;
+    margin-left: 1rem;
     margin-right: auto; 
     margin-top: 20px;
     background-color: white;
@@ -311,13 +328,33 @@
 
 .post-actions--comment-number {
     position: relative;
-    right: 20px;
+    right: 0px;
+    height: 35px;
+    width: 132px;
+}
+
+.post-actions--comment-number img {
+    margin-left: 8px;
 }
 
 .post-actions--comment-number:hover {
     background-color:#c6c6c6;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 6px;
+}
+
+.hover-reaction-test:hover {
+    background-color: #e4e4e4;
+}
+
+.hover-reaction-test {
+    border-radius: 6px;
+}
+
+.post-actions--bookmark-container {
+    height: 40px;
+    width: 40px;
+    justify-content: center; 
 }
 
 .post-actions--bookmark-icon {
@@ -334,6 +371,14 @@
 .post-actions--read-duration {
     margin-left: auto;
 
+}
+
+.iconw {
+    transition: transform 0.3s;
+}
+
+.iconw:hover {
+    transform: scale(1.2)
 }
 
 @media only screen and (max-width:576px) {

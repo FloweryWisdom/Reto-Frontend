@@ -56,9 +56,27 @@
     overflow-y: auto;
 }
 
+.btn.no-caret {
+    background-color: white;
+}
+
 .btn.no-caret::after {
     display: none;
 }
+
+.card-wrapper {
+    background-color: white;
+}
+.dropdown-billboard--image {
+    max-width: 250px;
+}
+
+.dropdown-billboard--image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 // ASIDE LEFT SECTION ENDS HERE //
 

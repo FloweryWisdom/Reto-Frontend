@@ -58,12 +58,17 @@
 
 .btn.no-caret {
     background-color: white;
+    border: none;
 }
 
 .btn.no-caret::after {
     display: none;
 }
 
+.btn.no-caret:hover {
+    background-color: rgb(240, 239, 239);
+    border: none;
+}
 .card-wrapper {
     background-color: white;
 }
@@ -76,6 +81,10 @@
     height: auto;
 }
 
+.sidebar-footer {
+    max-width: 250px;
+    height: auto;
+}
 
 
 // ASIDE LEFT SECTION ENDS HERE //
@@ -99,6 +108,9 @@
     border-bottom: .5px solid gray;
 }
 
+.card-header--subtitle {
+    font-size: .70em; 
+}
 // ASIDE RIGHT SECTION ENDS HERE //
 
 

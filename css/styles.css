@@ -48,10 +48,16 @@
 
 .btn.no-caret {
   background-color: white;
+  border: none;
 }
 
 .btn.no-caret::after {
   display: none;
+}
+
+.btn.no-caret:hover {
+  background-color: rgb(240, 239, 239);
+  border: none;
 }
 
 .card-wrapper {
@@ -64,6 +70,11 @@
 
 .dropdown-billboard--image img {
   max-width: 100%;
+  height: auto;
+}
+
+.sidebar-footer {
+  max-width: 250px;
   height: auto;
 }
 
@@ -81,6 +92,10 @@
 
 .right--card-option {
   border-bottom: 0.5px solid gray;
+}
+
+.card-header--subtitle {
+  font-size: 0.7em;
 }
 
 .page__container {

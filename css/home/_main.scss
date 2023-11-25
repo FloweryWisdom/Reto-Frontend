@@ -102,11 +102,36 @@
     margin-right: auto; 
     margin-top: 20px;
     background-color: white;
+    height: auto;
+}
+
+.right--card-header {
+    border-bottom: .5px solid rgb(240, 239, 239)
 }
 
 .right--card-option {
-    border-bottom: .5px solid gray;
+    border-bottom: .5px solid  rgb(240, 239, 239);
+    position: relative;
+    z-index: 2;
 }
+
+.card-header--title a{
+    color: black;
+    font-size: .72em;
+    font-weight: 700;
+}
+
+.card-header--title a:hover {
+    color: rgb(9, 9, 168)
+}
+
+.card-option--title {
+    color: black;
+}
+
+.card-option--title:hover {
+    color: rgb(9, 9, 168); 
+} 
 
 .card-header--subtitle {
     font-size: .70em; 
@@ -117,10 +142,6 @@
 .page__container {
     height: auto;
 
-}
-.aside__right--card {
-    height: 450px;
-    width: auto; 
 }
 
 .header--nav li{

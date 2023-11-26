@@ -125,6 +125,19 @@
     color: rgb(9, 9, 168)
 }
 
+.right--card-option-trend:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#trendy-card-title {
+    text-decoration: none;
+    color: black;
+    font-size: .95em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+
 .card-option--title {
     color: black;
 }
@@ -136,6 +149,12 @@
 .card-header--subtitle {
     font-size: .70em; 
 }
+
+.aside__right--card-trendging {
+    max-width: 310px !important;     
+}
+
+
 // ASIDE RIGHT SECTION ENDS HERE //
 
 

@@ -6,11 +6,24 @@
   margin-left: auto;
   margin-right: 1rem;
   max-width: 220px;
+  font-weight: 250;
 }
 
 .icon-text-container {
   display: flex;
   align-items: center; /* Vertically center align items within the container */
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.aside-left--second-box h4 {
+  font-size: 18px;
+}
+
+.socials-tab {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .icon-span {
@@ -33,7 +46,7 @@
 }
 
 .icon-text-container:hover {
-  background-color: #e4e4e4;
+  background-color: rgba(0, 0, 255, 0.085);
 }
 
 .icon-text-container .text-span a:hover {
@@ -118,7 +131,6 @@
 .right--card-option-trend {
   max-width: 280px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 350;
 }
 
 #trendy-card-title {
@@ -543,7 +555,7 @@ body {
   }
 }
 @media only screen and (max-width: 992px) {
-  .aside__right--card {
+  .aside__right {
     display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

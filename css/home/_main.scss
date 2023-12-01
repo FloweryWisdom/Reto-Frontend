@@ -40,16 +40,53 @@
     width: 40px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
+
 .socials-tab > div > a {
-    margin: auto; 
+    margin: auto;
 }
 
 .socials-tab >div:hover {
-    background-color: yellow;
+    background-color:  rgba(0, 0, 255, 0.085);
 }
 
+.socials-tab > div > a > .svg-icon1:hover {
+    content: url(/assets/icons/real-black-twitter-icon-hover-red.svg)
+}
+
+.socials-tab > div > 
+
+.socials-tab > div > a > img:hover {
+    fill: red;
+}
+
+#scrollable-sidebar ul {
+    list-style-type: none;
+}
+
+#scrollable-sidebar li {
+    height: 40px;
+    padding-left: 16px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+}
+
+#scrollable-sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+#scrollable-sidebar li:hover {
+    background-color:  rgba(0, 0, 255, 0.085); 
+}
+
+#scrollable-sidebar a:hover {
+    color: blue;
+    text-decoration: underline; 
+}
   
 .icon-span {
     margin-right: 10px; /* Add horizontal spacing between icon and text */
@@ -73,11 +110,11 @@
 .icon-text-container:hover {
     background-color: rgba(0, 0, 255, 0.085);
   }
+.icon-text-container:hover a {
+    text-decoration: underline;
+    color: blue; 
+}
 
-.icon-text-container .text-span a:hover{
-    text-decoration: underline; /* Underline on hover */
-    color: blue
-  }
 
 #scrollable-sidebar {
     max-height: 250px;

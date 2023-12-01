@@ -34,9 +34,22 @@
     font-size: 18px;
 }
 
-.socials-tab{
-    column-gap: 10px;
+
+.socials-tab > div {
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
 }
+
+.socials-tab > div > a {
+    margin: auto; 
+}
+
+.socials-tab >div:hover {
+    background-color: yellow;
+}
+
   
 .icon-span {
     margin-right: 10px; /* Add horizontal spacing between icon and text */

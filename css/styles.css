@@ -80,21 +80,21 @@
   margin-bottom: 0rem;
 }
 
+.icon-text-container {
+  text-decoration: none;
+  color: black;
+}
+
 .icon-text-container img {
   height: 24px;
   width: 24px;
-}
-
-.icon-text-container .text-span a {
-  color: black;
-  text-decoration: none;
 }
 
 .icon-text-container:hover {
   background-color: rgba(0, 0, 255, 0.085);
 }
 
-.icon-text-container:hover a {
+.icon-text-container:hover .text-span {
   text-decoration: underline;
   color: blue;
 }

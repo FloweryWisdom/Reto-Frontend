@@ -35,7 +35,7 @@
 }
 
 
-.socials-tab > div {
+.socials-tab > a {
     height: 40px;
     width: 40px;
     justify-content: center;
@@ -44,27 +44,41 @@
 }
 
 
-.socials-tab > div > a {
+.socials-tab > a > img {
     margin: auto;
 }
 
-.socials-tab >div:hover {
+.socials-tab >a:hover {
     background-color:  rgba(0, 0, 255, 0.085);
 }
 
-.socials-tab > div > a > .svg-icon1:hover {
-    content: url(/assets/icons/real-black-twitter-icon-hover-red.svg)
+.socials-tab--icon-1:hover  > .svg-icon {
+    content: url(/assets/icons/real-black-twitter-icon-hover.svg)
 }
 
-.socials-tab > div > 
+.socials-tab--icon-2:hover  > .svg-icon {
+    content: url(/assets/icons/facebook-icon-nav-hover.svg)
+}
 
-.socials-tab > div > a > img:hover {
-    fill: red;
+.socials-tab--icon-3:hover  > .svg-icon {
+    content: url(/assets/icons/github--icon-nav-hover.svg)
+}
+
+.socials-tab--icon-4:hover  > .svg-icon {
+    content: url(/assets/icons/instagram-icon-nav-hover.svg)
+}
+
+.socials-tab--icon-5:hover  > .svg-icon {
+    content: url(/assets/icons/twitch-icon-nav-hover.svg)
+}
+
+.socials-tab--icon-6:hover  > .svg-icon {
+    content: url(/assets/icons/mastodon-icon-nav-hover.svg)
 }
 
 #scrollable-sidebar ul {
     list-style-type: none;
-}
+}  
 
 #scrollable-sidebar li {
     height: 40px;
@@ -173,6 +187,13 @@
     height: auto;
 }
 
+.aside__right--card a:hover .card-option--title {
+    color: blue;
+}
+.card-option--title {
+    font-size: .9em;
+    font-weight: 345;
+}
 .right--card-header {
     border-bottom: .5px solid rgb(240, 239, 239)
 }
@@ -197,10 +218,17 @@
     background-color: rgb(255, 255, 255);
 }
 
-.right--card-option-trend {
-    max-width: 280px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+.right--card-option-trend:hover p{
+    color: blue;
 }
+
+
+.right--card-option-trend p{
+    max-width: 280px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
 
 #trendy-card-title {
     text-decoration: none;
@@ -214,10 +242,6 @@
 .card-option--title {
     color: black;
 }
-
-.card-option--title:hover {
-    color: rgb(9, 9, 168); 
-} 
 
 .card-header--subtitle {
     font-size: .70em; 
@@ -272,10 +296,14 @@ body {
     color: rgb(80, 80, 80)
 }
 
-.hastags--list li {
-    height:30px;
+
+.hashtags--list li{
+    font-size: 13px;
+    font-weight: 300;
+    height: 28px;
     padding-right: 6px;
     padding-left: 6px;
+
 }
 
 .hashtags--list  span {
@@ -290,7 +318,7 @@ body {
 
 .hashtags--list :nth-child(n+3):hover:not(span) {
     background-color: rgb(200, 200, 200);
-    border: 2px solid rgb(173, 173, 173);
+    border: 1px solid rgb(173, 173, 173);
     border-radius: 6px;
 }
 

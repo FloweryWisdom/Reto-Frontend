@@ -437,6 +437,11 @@ body {
   right: 28px;
 }
 
+.post-actions--icon-row {
+  position: relative;
+  z-index: 3;
+}
+
 .post-actions--icon-row img {
   height: 24px;
   background-color: rgb(232, 232, 232);
@@ -465,7 +470,8 @@ body {
   position: relative;
   right: 0px;
   height: 35px;
-  width: 132px;
+  width: 140px;
+  margin-right: 8px;
 }
 
 .post-actions--comment-number img {
@@ -486,6 +492,7 @@ body {
   border-radius: 6px;
   color: rgb(80, 80, 80);
   height: 35px;
+  width: 220px;
 }
 
 .post-actions--bookmark-container {
@@ -508,6 +515,7 @@ body {
 
 .post-actions--read-duration {
   margin-left: auto;
+  margin-right: 5px;
 }
 
 .iconw {
@@ -607,9 +615,6 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-  .post-actions--reactions-text {
-    display: none;
-  }
   .post-actions--comment-number {
     display: none;
   }
